@@ -436,7 +436,7 @@ genome_split = str_split(string = genome, pattern = "",simplify = TRUE)
 
 str(genome_split)
 
-# bases counting
+# bases counting - bottleneck of the script, since it takes some time
 counting = table(genome_split)
 counting
 
